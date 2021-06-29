@@ -1,0 +1,56 @@
+/*
+  Name: Michael Harris
+  Date: June 30, 2021
+  Section: CSE 154 AD
+
+  This is the portfolio.css page for the specific styling of the portfolio.html page.
+*/
+
+/*
+  The following code was used from
+  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade
+  to help in creating the text overlay effect. The code has been modified
+  for my own purpopses and desired appearance.
+*/
+
+.container, .text {
+  position: relative;
+}
+
+.container {
+   padding-right: 12px;
+}
+
+.port-img {
+  display: block;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  border-radius: 10px;
+  top: 0;
+  bottom: 0;
+  left: 12px;
+  right: 0;
+  height: 100%;
+  max-width: 500px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #292929;
+}
+
+.container:hover .overlay {
+  opacity: 0.9;
+}
+
+.text {
+  color: white;
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  padding: 10px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

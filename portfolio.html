@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--
+  Name: Michael Harris
+  Date: June 30, 2021
+  Section: CSE 154 AD
+
+  This is the portfolio.html page for my personal, collegiate portfolio.
+  It includes information related to projects I have completed during my
+  education at the UW.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&family=Roboto&display=swap"
+    rel="stylesheet">
+    <title>Mike's Portfolio</title>
+  </head>
+  <body>
+    <header id="top-bar">
+      <nav>
+        <ul>
+          <li><a href="about.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Mike's Portfolio</h2>
+        <p>Hover over each image to review details.</p>
+        <h3>June 2021</h3>
+        <article class="container">
+          <img class="port-img" src="images/campus-paths.png"
+          alt="uw campus map with red lined path">
+          <div class="overlay">
+            <p class="text">I started by designing my own map ADT. Using
+              data compiled by the CSE 331 Software Design and Implementation staff,
+              I used my map ADT and Dijkstra's algorithm to plot the shortest paths
+              across the UW campus. The front-end was developed with React and JS,
+              while the back-end was developed with a Java Spark server.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section>
+        <h3>March 2021</h3>
+        <article class="container">
+          <img class="port-img" src="images/population-query.png"
+          alt="output from population query application">
+          <div class="overlay">
+            <div class="text">Using census data from 2010, I worked to overlay a US map
+              with a grid and query the grid for a population within a range. This was done
+              while exploring parallel programming and concurrency using the fork-join
+              framework.
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section>
+        <h3>December 2020</h3>
+        <article class="container">
+          <img class="port-img" src="images/poetr.png"
+          alt="main page for poetr website">
+          <div class="overlay">
+            <div class="text">In a 24 hour coding marathon that led to a 1st
+              place prize, I developed the front-end look and feel of our poetry website.
+              The site allows a user to post a poem alongside other related poems via
+              tags. The interface allows a user to review material based on similar tags
+              or completely randomly. I used the bootstrap framework to organize the site.
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <cite>Text overlay code used in part from
+        <a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade"
+        target="_blank">w3schools HowTo</a>.</cite>
+      <p>&copy; Mike Harris 2021</p>
+    </footer>
+  </body>
+</html>

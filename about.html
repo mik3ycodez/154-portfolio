@@ -1,100 +1,121 @@
 <!DOCTYPE html>
 <!--
-  Directions:
-  - Try viewing the page before you make any changes
-  - Look for all the places it say *** TODO: _____ ***
-  - Remove the *** TODO: _____ *** and follow the instructions. i.e. if it says
-    *** TODO: Give the page a title *** do just that, write a title for the page in place of the
-    todo item. Your final submission should not include any TODO comments
--->
+  Name: Michael Harris
+  Date: June 30, 2021
+  Section: CSE 154 AD
 
-<!--
-  ***
-  TODO: fill in your header
-  INSERT YOUR NAME HERE
-  INSERT THE CURRENT DATE HERE
-  INSERT YOUR SECTION AND TA NAME HERE
-
-  WRITE A 2-3 SENTENCE FILE DESCRIPTION HERE
-  ***
+  This is the about.html page for my personal, collegiate portfolio.
+  It includes information related to myself and the projects completed during
+  my summer CSE 154 course at the UW.
 -->
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&family=Roboto&display=swap"
+    rel="stylesheet">
     <title>CP1</title>
   </head>
+
   <body>
-    <section>
-      <h1>*** TODO: Describe this page succinctly! ***</h1>
-      <p>
-        *** TODO: Insert a brief description of yourself in 1-2 sentences (e.g. background,
-        something you did during the break, what you're looking forward to in CSE 154, etc.).
-      </p>
-    </section>
+    <header id="top-bar">
+      <nav>
+        <ul>
+          <li><a href="about.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <section>
-      <h2>Classes I'm currently taking</h2>
-      <!--
-        *** TODO: Finish the following unordered list with classes you are currently taking (in order
-        of most-to-least favorite). We've shown you two list items, but you may need to add more.
-      -->
-      <ul>
-        <li>*** TODO: add your first favorite class***</li>
-        <li>*** TODO: add your second favorite class***</li>
-      </ul>
-    </section>
+    <main>
+      <section>
+        <h1>Who Am I...</h1>
+        <p>
+          Hello! My name is Mike. As of fall 2021, I will be starting my senior year at the
+          University of Washington as a Computer Science major. I am a transfer student from
+          Seattle Central College where I completed most of my gen. ed. reqs. Since spring
+          quarter, I have been working with a PhD student in the Security and Privacy Lab
+          assisting with their work.
+        </p>
+      </section>
 
-    <section>
-      <h2>Five of My Favorite Things</h2>
-      <!--
-        ***
-        TODO: Finish the following list of your favorite things (you can customize the
-        categories if you'd like!).
+      <section>
+        <h2>Classes I'm currently taking</h2>
+        <h3>Summer 2021</h3>
+        <ul>
+          <li>CSE 154: Web Programming</li>
+          <li>CSE 499: Research</li>
+        </ul>
 
-        Wrap your answer for at least one favorite thing inside of
-        an <a> tag, linking to a related page (e.g. a wikipedia page of your favorite animal).
-        If you have multiple favorites in a category, try a nested list inside of an li!
-        ***
-      -->
-      <ol>
-        <li><strong>Favorite animal:</strong> *** TODO: fill in your answer ***</li>
-        <li><strong>Favorite food:</strong> *** TODO: fill in your answer ***</li>
-        <li><strong>Favorite TV show:</strong> *** TODO: fill in your answer***</li>
-        <li><strong>Favorite hobby:</strong> *** TODO: fill in your answer ***</li>
-        <li><strong>Favorite ???:</strong> *** TODO: fill in your answer ***</li>
-      </ol>
+        <h3>Fall 2021</h3>
+        <ul>
+          <li>CSE 446: Machine learning</li>
+          <li>CSE 341: Programming Languages</li>
+          <li>CSE 333: Systems Programming</li>
+        </ul>
+      </section>
 
-      <!--
-        ***
-        TODO: Find two images that represent when you're happy and when you're sad (consider
-        Google Image Search) but remember to cite your sources
-        ***
-      -->
+      <section>
+        <h2>Five of My Favorite Things</h2>
+        <ol>
+          <li><strong>Favorite animal:</strong> frogs</li>
+          <li><strong>Favorite food:</strong> pesto, cauliflower pizza from Mod Pizza</li>
+          <li><strong>Favorite TV show:</strong>
+            <ul>
+              <li>atm... Grey's Anatomy</li>
+              <li>but consistently Ru Paul's Drag Race (all of them)</li>
+              <li>and Lucifer</li>
+            </ul>
+          </li>
+          <li><strong>Favorite hobby:</strong> playing video games
+            <ul>
+              <li>Outriders</li>
+              <li>Final Fantasy</li>
+              <li>Assassin's Creed</li>
+            </ul>
+          </li>
+          <li><strong>Favorite color:</strong>
+            <a href="https://en.wikipedia.org/wiki/Green"
+            target="_blank">green</a></li>
+        </ol>
 
-      <h3>A picture that represents when I'm happy</h3>
-      <img src="*** TODO: add image file***" alt="*** TODO: insert descriptive text for screenreaders***">
-      <p>*** TODO: add citation of where you got this file ***</p>
+        <h3>A picture that represents when I'm happy</h3>
+        <img src="images/square-enix-pride-mascot.jpeg" alt="square enix pride mascot">
+        <p>Available for download at
+          <a href="https://square-enix-games.com/en_US/home/square-enix-introduces-pride-mascot"
+          target="_blank">
+            Square Enix</a>.</p>
 
-      <h3>A picture that represents when I'm sad</h3>
-      <img src="*** TODO: add image file***" alt="*** TODO: insert descriptive text for screenreaders***">
-      <p>*** TODO: add citation of where you got this file ***</p>
+        <h3>A picture that represents when I'm sad</h3>
+        <img src="images/empty-coffee-cup.jpg"
+        alt="empty used coffee cup with spoon">
+        <p>Available for download at
+          <a href="https://commons.wikimedia.org/wiki/File:Empty_coffee_cup_at_Le_46,_Avignon,_France_-_20140713.jpg"
+          target="_blank">
+          Jacklee.</a>,
+          <a href="https://creativecommons.org/licenses/by-sa/4.0"
+          target="_blank">
+            CC BY-SA 4.0</a>, via Wikimedia Commons.</p>
 
-      <h3>One of my favorite quotes</h3>
-      <!--
-        Note: We'll learn about semantic tags more this week, but an article is a good semantic
-        choice here to group the information about a single quote and the author/source. If
-        you want to have multiple quotes, try duplicating this
-        "card UI" structure
-      -->
-      <article>
-        <blockquote>
-          <p>
-            *** TODO: Insert a favorite quote here. Add another paragraph tag if needed! ***
-          </p>
-          <footer>*** TODO: Insert the source (e.g. author) for the quote here.***</footer>
-        </blockquote>
-      </article>
-    </section>
+        <h3>One of my favorite quotes</h3>
+        <article>
+          <blockquote>
+            <p>
+              "I have no special talents, I am only passionately curious."
+            </p>
+          </blockquote>
+          <cite>Quote from Albert Einstein in his letter to Carl Seelig
+            in 1952.</cite>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; Mike Harris 2021</p>
+    </footer>
   </body>
 </html>

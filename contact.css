@@ -1,0 +1,12 @@
+/*
+  Name: Michael Harris
+  Date: June 30, 2021
+  Section: CSE 154 AD
+
+  This is the contact.css page for the specific styling of the contact.html page.
+*/
+
+textarea {
+  width: 20em;
+  height: 10em;
+}

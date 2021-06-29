@@ -1,19 +1,83 @@
 /*
-  *** TODO: fill in your header ***
-  INSERT YOUR NAME HERE
-  INSERT THE CURRENT DATE HERE
-  INSERT YOUR SECTION/TA NAME
+  Name: Michael Harris
+  Date: June 30, 2021
+  Section: CSE 154 AD
 
-  WRITE A 2-3 SENTENCE FILE DESCRIPTION HERE
+  This is the styles.css page for the shared styling of Creative Project 1.
+  These rules will be for any styling across all webpages of CP1 to keep
+  a consistent look and feel.
 */
 
-/*
-  Note: This body rule set is to get you started
-*/
+body, nav > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 body {
-  background-color: rosybrown;
-  font-family: "Helvetica", sans-serif;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
+  background-color: hsl(41, 88%, 90%);
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+  width: 95%;
+}
+
+footer {
+  width: 100%;
+}
+
+h1, h2, h3, nav li {
+  font-family: 'Patrick Hand SC', cursive;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2, nav li {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+img {
+  margin: 10px;
+}
+
+main {
+  width: 75%;
+}
+
+section, nav li {
+  background-color: hsl(132, 23%, 54%);
+  margin-top: 15px;
+  padding: 0 10px;
+  max-width: 500px;
+}
+
+img, section, nav li {
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.2), 0 5px 20px 2px rgba(0, 0, 0, 0.19);
+}
+
+nav ul {
+  list-style-type: none;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 538px) {
+  #top-bar {
+    width: 90%;
+  }
+
+  nav ul {
+    flex-direction: row;
+  }
 }

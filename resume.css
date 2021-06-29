@@ -1,0 +1,19 @@
+/*
+  Name: Michael Harris
+  Date: June 30, 2021
+  Section: CSE 154 AD
+
+  This is the resume.css page for the specific styling of the resume.html page.
+*/
+
+iframe {
+  display: block;
+  width: 90%;
+  height: 100vh;
+  margin: 0 auto;
+  border-style: none;
+}
+
+#resume-frame {
+  padding: 10px 10px;
+}
